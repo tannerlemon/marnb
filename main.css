@@ -96,6 +96,21 @@ a {
     cursor: pointer;
     margin-top: 40px;
   }
+
+  .about-text {
+    width: 67%;
+    margin: 0 auto;
+  }
+
+  .about-text h1,
+  .about-text h2 {
+    text-align: center;
+    margin-top: 6px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (min-width: 901px) {
@@ -175,5 +190,24 @@ a {
     color: #fff;
     cursor: pointer;
     margin-top: 40px;
+  }
+
+  .about-text {
+    margin: 100px;
+  }
+
+  .header {
+    margin-left: 100px;
+  }
+
+  .collection {
+    display: flex;
+    width: 67%;
+    margin: 0 auto;
+    flex-flow: column nowrap;
+  }
+
+  .collection-set {
+    display: flex;
   }
 }
