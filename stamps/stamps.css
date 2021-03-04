@@ -1,0 +1,98 @@
+.stamp-wrapper {
+  width: 40%;
+  margin: 0 auto;
+  padding: 70px;
+}
+
+.stamp {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.price {
+  margin: -40px 0 45px 0;
+}
+
+.stamp-button {
+  background-color: #f0c651;
+  width: 100%;
+  color: #2a1c26;
+  margin-bottom: 70px;
+}
+
+.more-stamps-wrapper {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.more-stamps {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.a-stamp {
+  width: 47%;
+}
+
+.one-more,
+.three-more {
+  width: 25%;
+}
+
+.two-more {
+  width: 40%;
+}
+
+@media only screen and (max-width: 900px) {
+  .stamp-wrapper {
+    width: 87%;
+    margin: 0 auto;
+    padding: 70px 10px;
+  }
+
+  .stamp {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+
+  .price {
+    margin: 0 0 45px 0;
+  }
+
+  .stamp-button {
+    background-color: #f0c651;
+    width: 85%;
+    color: #2a1c26;
+    margin-bottom: 70px;
+    display: block;
+  }
+
+  .more-stamps-wrapper {
+    width: 90%;
+  }
+
+  .more-stamps {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .a-stamp {
+    width: 47%;
+  }
+
+  .one-more,
+  .three-more {
+    width: 25%;
+  }
+
+  .two-more {
+    width: 40%;
+  }
+}

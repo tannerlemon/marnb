@@ -13,6 +13,23 @@ body {
 
 a {
   text-decoration: none;
+  text-align: center;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+
+img {
+  width: 100%;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+
+img:hover {
+  width: 103%;
+}
+
+.wrapper {
+  width: 100%;
 }
 
 @media only screen and (max-width: 900px) {
@@ -69,6 +86,10 @@ a {
     margin: 0;
   }
 
+  p {
+    font-size: 14px;
+  }
+
   .header {
     margin: 40px;
   }
@@ -82,9 +103,8 @@ a {
     flex-flow: column;
   }
 
-  button {
+  .button {
     border-radius: 3px;
-    height: 70px;
     font-size: 24px;
     width: 100%;
     font-family: "baskerville";
@@ -95,6 +115,7 @@ a {
     color: #fff;
     cursor: pointer;
     margin-top: 40px;
+    padding: 34px;
   }
 
   .about-text {
@@ -119,6 +140,10 @@ a {
     font-weight: 400;
     padding: 0 100px;
     color: #fff;
+  }
+
+  a:hover {
+    padding: 40px;
   }
 
   .nav {
@@ -153,10 +178,16 @@ a {
     justify-content: center;
   }
 
+  p {
+    font-size: 36px;
+    font-weight: 400;
+  }
+
   h1 {
     font-size: 64px;
     text-transform: uppercase;
     font-weight: 600;
+    line-height: 73.16px;
   }
 
   h2 {
@@ -168,6 +199,11 @@ a {
     margin-top: 0;
   }
 
+  h3 {
+    font-size: 36px;
+    line-height: 41.15px;
+  }
+
   .intro-wrapper {
     margin: 0 auto;
     width: 100%;
@@ -177,10 +213,9 @@ a {
     flex-flow: column;
   }
 
-  button {
+  .button {
     border-radius: 3px;
     width: 475px;
-    height: 70px;
     font-size: 48px;
     font-family: "baskerville";
     font-weight: 600;
@@ -189,7 +224,9 @@ a {
     background-color: #bba652;
     color: #fff;
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 45px;
+    padding: 34px;
+    display: block;
   }
 
   .about-text {
