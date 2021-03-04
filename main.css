@@ -28,6 +28,10 @@ img:hover {
   width: 103%;
 }
 
+.logo:hover {
+  width: 80px;
+}
+
 .wrapper {
   width: 100%;
 }
